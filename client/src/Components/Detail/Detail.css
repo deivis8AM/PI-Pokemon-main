@@ -1,0 +1,41 @@
+.fondo{
+    background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F9f%2Fd8%2F8e%2F9fd88e3a1ea4ccadb90f095f642d18a7.png&tbnid=TDq1LD80RMWD5M&vet=12ahUKEwjx17LizPqAAxWVJVkFHbeaCJkQMygLegQIARBk..i&imgrefurl=https%3A%2F%2Fwww.pinterest.es%2Fpin%2F532269249689601969%2F&docid=Y--5wu6shdiwWM&w=1051&h=760&q=https%20%2F%2Fimages-wixmp%20pokemon%20npg&ved=2ahUKEwjx17LizPqAAxWVJVkFHbeaCJkQMygLegQIARBk");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;	
+    background-attachment: fixed;
+    height: 100%;
+}
+.detail{
+    border-radius: 1rem;
+    border: 15px solid rgb(221, 224, 228);
+    margin-top: 3rem;
+    margin-left: 27rem;
+    margin-right: 27rem;
+    display: flex;
+    background-color: rgba(106, 14, 14, 0.684);
+    justify-content: center;
+   color: rgb(230, 234, 239);
+   
+
+}
+.name{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.stats{
+    grid-template-columns: repeat(3, 33.3%);
+    justify-content: center;
+    opacity: 1;
+}
+.button{
+    margin-top: 1.5rem;
+    background-color:rgb(255, 8, 8) ;
+    border: 2px solid rgb(238, 241, 245);
+    border-radius: 1rem;
+    color: rgb(242, 243, 244);
+    height: 2rem;
+    cursor: pointer;
+}

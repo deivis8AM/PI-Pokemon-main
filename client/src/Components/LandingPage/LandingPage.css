@@ -1,0 +1,44 @@
+ 
+
+.LandingPage{
+   display: flex;
+   flex-direction: column;
+   background-image: url("https://www.gratistodo.com/wp-content/uploads/2016/09/Pokemon-1-800x433.png");   
+   background-size:100% 100%;
+   background-position:center;
+   background-repeat:no-repeat;	
+   background-attachment: fixed;
+   height: 100vh;
+   
+}
+.buttonImage{
+   border-radius: 99rem;
+  background-color: rgb(12, 64, 72);
+  margin-top: 10rem;
+  width: 90px;
+  height: 90px;
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+    
+}
+
+.buttonImage:hover {
+   transform: translateY(-5px);
+ }
+
+.createdBy{
+   height: 60px;
+   width: 450px;
+   display: flex;
+   margin-top: 200px;
+   justify-content: center;
+   margin-left: 34rem;
+}
+
+.createdBy:hover {
+   transform: translateY(-5px);
+}
+
+.tittle{
+   margin-top: 1rem;
+}

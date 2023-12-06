@@ -1,0 +1,16 @@
+.input{
+    background-color:rgba(103, 12, 15, 0.91);
+    border: 2px solid rgb(236, 239, 243);
+    border-radius: 10px;
+    height: 1.6rem;
+}
+.searchButton{
+    background-color:rgba(255, 5, 13, 0.74);
+    color: rgb(224, 228, 233);
+    border: 2px solid rgb(231, 233, 237);
+    border-radius: 10px;
+    height: 1.9rem;
+}
+.searchForm{
+    height: 2rem;
+}

@@ -1,0 +1,96 @@
+
+
+.container{
+    display: grid;
+    flex-direction: row;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    gap: 2px;
+    
+    grid-template-columns: repeat(4, 25%);
+    justify-content: center;
+    margin-bottom: 10px;
+    
+}
+.card{
+    border: 5px solid rgb(232, 235, 240);
+    height: fit-content;
+    width: 240px;
+    margin-top: 15px;
+    text-decoration: none;
+    
+}
+.loading{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.link{
+    text-decoration: none;
+    width: 200;
+    height: 200;
+    
+}
+
+.loadingContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loadingContainer:hover {
+    transform: translateY(-5px);
+    
+  }
+
+.navBar{
+    
+    background-color:  rgba(141, 13, 13, 0.645);
+    display: flex;
+    justify-content: space-around;
+    height: 5rem;
+    align-items: center;
+}
+
+.navBar:hover {
+    transform: translateY(-5px);
+}
+
+.filter{
+    display: flex;
+    gap: 1rem;
+}
+.createPokemon{
+    border: 2px solid rgb(196, 205, 219);
+    background-color:rgba(102, 7, 21, 0.998);
+    color: rgb(204, 210, 217);
+    height: 2rem;
+    border-radius: 10px;
+}
+
+.createPokemon:hover {
+    transform: translateY(-5px);
+    
+  }
+
+.handlePageButton{
+    border: 2px solid rgb(235, 238, 243);
+    background-color:rgba(178, 10, 26, 0.74);
+    color:  rgb(241, 245, 249);
+    border-radius: 6px;
+    margin-left: 8px;
+    margin-right: 8px;
+    height: 2rem;
+    width: 2rem;    
+}
+
+
+.handlePageContainer{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+.pokemonsCards{
+    display: flex;
+    justify-content: center;
+}
